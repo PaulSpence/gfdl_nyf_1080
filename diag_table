@@ -21,6 +21,10 @@ MOM4p1_CORE_IAF_v20120531_0849_noRestore_runoff_fix
 "ocean_model","kmt","kmt",           "ocean_grid","all",.false.,"none",2
 "ocean_model","kmu","kmu",           "ocean_grid","all",.false.,"none",2
 "ocean_model","drag_coeff","drag_coeff","ocean_grid","all",.false.,"none",2
+"ocean_model","dxt","dxt","ocean_grid","all",.false.,"none",2
+"ocean_model","dyt","dyt","ocean_grid","all",.false.,"none",2
+
+
 #==========================================================================
 # Prognostic fields:
 # 3d fields
@@ -50,17 +54,17 @@ MOM4p1_CORE_IAF_v20120531_0849_noRestore_runoff_fix
 "ocean_model","mld","mld", "ocean_month","all",.true.,"none",2
 
 #
-"ocean_model","u","u","oceankerg_%4yr_%3dy","all",.true.,"-100,65,-10,85,-1,-1",2
-"ocean_model","v","v","oceankerg_%4yr_%3dy","all",.true.,"-100,65,-10,85,-1,-1",2
-"ocean_model","wt","wt","oceankerg_%4yr_%3dy","all",.true.,"-100,65,-10,85,-1,-1",2
-"ocean_model","temp","temp","oceankerg_%4yr_%3dy","all",.true.,"-100,65,-10,85,-1,-1",2
-"ocean_model","salt","salt","oceankerg_%4yr_%3dy","all",.true.,"-100,65,-10,85,-1,-1",2
-"ocean_model","pot_rho_0","pot_rho_0","oceankerg_%4yr_%3dy","all",.true.,"-100,65,-10,85,-1,-1",2
-"ocean_model","mld","mld","oceankerg_%4yr_%3dy","all",.true.,"-100,65,-10,85,-1,-1",2
-"ocean_model","sea_level","sea_level","oceankerg_%4yr_%3dy","all",.true.,"-100,65,-10,85,-1,-1",2
-"ocean_model","sea_level_sq","sea_level_sq","oceankerg_%4yr_%3dy","all",.true.,"-100,65,-10,85,-1,-1",2
-"ocean_model","age_global","age_global","oceankerg_%4yr_%3dy","all",.true.,"-100,65,-10,85,-1,-1",2
-"ocean_model","ty_trans_rho","ty_trans_rho","oceankerg_%4yr_%3dy","all",.true.,"-100,65,-10,85,-1,-1",2
+"ocean_model","u","u","oceankerg_%4yr_%3dy","all",.true.,"none",2
+"ocean_model","v","v","oceankerg_%4yr_%3dy","all",.true.,"none",2
+"ocean_model","wt","wt","oceankerg_%4yr_%3dy","all",.true.,"none",2
+"ocean_model","temp","temp","oceankerg_%4yr_%3dy","all",.true.,"none",2
+"ocean_model","dzt","dzt","oceankerg_%4yr_%3dy","all",.true.,"none",2
+#"ocean_model","pot_rho_0","pot_rho_0","oceankerg_%4yr_%3dy","all",.true.,"-100,65,-10,85,-1,-1",2
+#"ocean_model","mld","mld","oceankerg_%4yr_%3dy","all",.true.,"-100,65,-10,85,-1,-1",2
+#"ocean_model","sea_level","sea_level","oceankerg_%4yr_%3dy","all",.true.,"-100,65,-10,85,-1,-1",2
+#"ocean_model","sea_level_sq","sea_level_sq","oceankerg_%4yr_%3dy","all",.true.,"-100,65,-10,85,-1,-1",2
+#"ocean_model","age_global","age_global","oceankerg_%4yr_%3dy","all",.true.,"-100,65,-10,85,-1,-1",2
+#"ocean_model","ty_trans_rho","ty_trans_rho","oceankerg_%4yr_%3dy","all",.true.,"-100,65,-10,85,-1,-1",2
 ##
 
 
